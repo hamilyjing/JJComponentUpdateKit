@@ -14,6 +14,13 @@
 		287F210B1BE5BCBE00D38FC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287F21091BE5BCBE00D38FC0 /* LaunchScreen.storyboard */; };
 		287F21161BE5BCBE00D38FC0 /* JJComponentUpdateKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287F21151BE5BCBE00D38FC0 /* JJComponentUpdateKitTests.swift */; };
 		287F21211BE5BCBE00D38FC0 /* JJComponentUpdateKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287F21201BE5BCBE00D38FC0 /* JJComponentUpdateKitUITests.swift */; };
+		287F21411BE5BEEB00D38FC0 /* JJCUKBaseFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 287F21341BE5BEEB00D38FC0 /* JJCUKBaseFunction.m */; };
+		287F21431BE5BEEB00D38FC0 /* JJCUKHashTableViewFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 287F21381BE5BEEB00D38FC0 /* JJCUKHashTableViewFunction.m */; };
+		287F21441BE5BEEB00D38FC0 /* JJComponentUpdateKitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 287F213C1BE5BEEB00D38FC0 /* JJComponentUpdateKitManager.m */; };
+		287F214F1BE5C97F00D38FC0 /* JJCUKMapTableComponentsFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 287F214E1BE5C97F00D38FC0 /* JJCUKMapTableComponentsFunction.m */; };
+		287F21521BE5C9A100D38FC0 /* JJCUKHashTableComponentsFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 287F21511BE5C9A100D38FC0 /* JJCUKHashTableComponentsFunction.m */; };
+		287F21581BE5DE2000D38FC0 /* NSObject+JJCUK.m in Sources */ = {isa = PBXBuildFile; fileRef = 287F21571BE5DE2000D38FC0 /* NSObject+JJCUK.m */; };
+		287F21631BE5EF9C00D38FC0 /* UIView+JJCUK.m in Sources */ = {isa = PBXBuildFile; fileRef = 287F21621BE5EF9C00D38FC0 /* UIView+JJCUK.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,23 @@
 		287F211C1BE5BCBE00D38FC0 /* JJComponentUpdateKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJComponentUpdateKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		287F21201BE5BCBE00D38FC0 /* JJComponentUpdateKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJComponentUpdateKitUITests.swift; sourceTree = "<group>"; };
 		287F21221BE5BCBE00D38FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		287F21331BE5BEEB00D38FC0 /* JJCUKBaseFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJCUKBaseFunction.h; sourceTree = "<group>"; };
+		287F21341BE5BEEB00D38FC0 /* JJCUKBaseFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJCUKBaseFunction.m; sourceTree = "<group>"; };
+		287F21371BE5BEEB00D38FC0 /* JJCUKHashTableViewFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJCUKHashTableViewFunction.h; sourceTree = "<group>"; };
+		287F21381BE5BEEB00D38FC0 /* JJCUKHashTableViewFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJCUKHashTableViewFunction.m; sourceTree = "<group>"; };
+		287F21391BE5BEEB00D38FC0 /* JJComponentUpdateKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJComponentUpdateKit.h; sourceTree = "<group>"; };
+		287F213B1BE5BEEB00D38FC0 /* JJComponentUpdateKitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJComponentUpdateKitManager.h; sourceTree = "<group>"; };
+		287F213C1BE5BEEB00D38FC0 /* JJComponentUpdateKitManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJComponentUpdateKitManager.m; sourceTree = "<group>"; };
+		287F214D1BE5C97F00D38FC0 /* JJCUKMapTableComponentsFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJCUKMapTableComponentsFunction.h; sourceTree = "<group>"; };
+		287F214E1BE5C97F00D38FC0 /* JJCUKMapTableComponentsFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJCUKMapTableComponentsFunction.m; sourceTree = "<group>"; };
+		287F21501BE5C9A100D38FC0 /* JJCUKHashTableComponentsFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJCUKHashTableComponentsFunction.h; sourceTree = "<group>"; };
+		287F21511BE5C9A100D38FC0 /* JJCUKHashTableComponentsFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJCUKHashTableComponentsFunction.m; sourceTree = "<group>"; };
+		287F21551BE5DD3C00D38FC0 /* JJCUKComponentDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJCUKComponentDelegate.h; sourceTree = "<group>"; };
+		287F21561BE5DE2000D38FC0 /* NSObject+JJCUK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JJCUK.h"; sourceTree = "<group>"; };
+		287F21571BE5DE2000D38FC0 /* NSObject+JJCUK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JJCUK.m"; sourceTree = "<group>"; };
+		287F215D1BE5E0FF00D38FC0 /* JJCUKComponentDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJCUKComponentDataSource.h; sourceTree = "<group>"; };
+		287F21611BE5EF9C00D38FC0 /* UIView+JJCUK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JJCUK.h"; sourceTree = "<group>"; };
+		287F21621BE5EF9C00D38FC0 /* UIView+JJCUK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JJCUK.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +101,7 @@
 		287F20F41BE5BCBE00D38FC0 = {
 			isa = PBXGroup;
 			children = (
+				287F212E1BE5BED200D38FC0 /* API */,
 				287F20FF1BE5BCBE00D38FC0 /* JJComponentUpdateKit */,
 				287F21141BE5BCBE00D38FC0 /* JJComponentUpdateKitTests */,
 				287F211F1BE5BCBE00D38FC0 /* JJComponentUpdateKitUITests */,
@@ -123,6 +148,71 @@
 				287F21221BE5BCBE00D38FC0 /* Info.plist */,
 			);
 			path = JJComponentUpdateKitUITests;
+			sourceTree = "<group>";
+		};
+		287F212E1BE5BED200D38FC0 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				287F21311BE5BEEB00D38FC0 /* JJComponentUpdateKit */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		287F21311BE5BEEB00D38FC0 /* JJComponentUpdateKit */ = {
+			isa = PBXGroup;
+			children = (
+				287F21531BE5DCD500D38FC0 /* Component */,
+				287F21321BE5BEEB00D38FC0 /* Function */,
+				287F21391BE5BEEB00D38FC0 /* JJComponentUpdateKit.h */,
+				287F213A1BE5BEEB00D38FC0 /* Manager */,
+				287F21461BE5BF7800D38FC0 /* SystemCategory */,
+			);
+			name = JJComponentUpdateKit;
+			path = JJComponentUpdateKit/JJComponentUpdateKit;
+			sourceTree = "<group>";
+		};
+		287F21321BE5BEEB00D38FC0 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				287F21331BE5BEEB00D38FC0 /* JJCUKBaseFunction.h */,
+				287F21341BE5BEEB00D38FC0 /* JJCUKBaseFunction.m */,
+				287F21501BE5C9A100D38FC0 /* JJCUKHashTableComponentsFunction.h */,
+				287F21511BE5C9A100D38FC0 /* JJCUKHashTableComponentsFunction.m */,
+				287F21371BE5BEEB00D38FC0 /* JJCUKHashTableViewFunction.h */,
+				287F21381BE5BEEB00D38FC0 /* JJCUKHashTableViewFunction.m */,
+				287F214D1BE5C97F00D38FC0 /* JJCUKMapTableComponentsFunction.h */,
+				287F214E1BE5C97F00D38FC0 /* JJCUKMapTableComponentsFunction.m */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		287F213A1BE5BEEB00D38FC0 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				287F213B1BE5BEEB00D38FC0 /* JJComponentUpdateKitManager.h */,
+				287F213C1BE5BEEB00D38FC0 /* JJComponentUpdateKitManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		287F21461BE5BF7800D38FC0 /* SystemCategory */ = {
+			isa = PBXGroup;
+			children = (
+				287F21611BE5EF9C00D38FC0 /* UIView+JJCUK.h */,
+				287F21621BE5EF9C00D38FC0 /* UIView+JJCUK.m */,
+			);
+			path = SystemCategory;
+			sourceTree = "<group>";
+		};
+		287F21531BE5DCD500D38FC0 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				287F215D1BE5E0FF00D38FC0 /* JJCUKComponentDataSource.h */,
+				287F21551BE5DD3C00D38FC0 /* JJCUKComponentDelegate.h */,
+				287F21561BE5DE2000D38FC0 /* NSObject+JJCUK.h */,
+				287F21571BE5DE2000D38FC0 /* NSObject+JJCUK.m */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +349,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				287F21411BE5BEEB00D38FC0 /* JJCUKBaseFunction.m in Sources */,
 				287F21031BE5BCBE00D38FC0 /* ViewController.swift in Sources */,
+				287F21521BE5C9A100D38FC0 /* JJCUKHashTableComponentsFunction.m in Sources */,
+				287F214F1BE5C97F00D38FC0 /* JJCUKMapTableComponentsFunction.m in Sources */,
+				287F21631BE5EF9C00D38FC0 /* UIView+JJCUK.m in Sources */,
+				287F21581BE5DE2000D38FC0 /* NSObject+JJCUK.m in Sources */,
 				287F21011BE5BCBE00D38FC0 /* AppDelegate.swift in Sources */,
+				287F21431BE5BEEB00D38FC0 /* JJCUKHashTableViewFunction.m in Sources */,
+				287F21441BE5BEEB00D38FC0 /* JJComponentUpdateKitManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +584,7 @@
 				287F21271BE5BCBE00D38FC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		287F21281BE5BCBE00D38FC0 /* Build configuration list for PBXNativeTarget "JJComponentUpdateKitTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +593,7 @@
 				287F212A1BE5BCBE00D38FC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		287F212B1BE5BCBE00D38FC0 /* Build configuration list for PBXNativeTarget "JJComponentUpdateKitUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +602,7 @@
 				287F212D1BE5BCBE00D38FC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
