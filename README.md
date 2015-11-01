@@ -8,7 +8,9 @@ For example, you should show the same name in different module, and you must wri
 
 * Move JJComponentUpdateKit/JJComponentUpdateKit directory to your project.
 
-* Write funcion class to process notification and update componet. The function class should begin with JJCUKFunction. JJComponentUpdateKit will create function class accroding to the class name rule: "JJCUKFunction" + "funciton type". [Fucntion type see below.]
+* Create funcion class to process notification and update componet. 
+	
+	The function class should begin with JJCUKFunction. JJComponentUpdateKit will create function class accroding to the class name rule: "JJCUKFunction" + "funciton type". [Fucntion type see below.]
 ```
 let ChangeLabelTextNotificationName = "ChangeLabelTextNotificationName"
 
@@ -36,7 +38,9 @@ class JJCUKFunctionChangeLabelText: JJCUKHashTableComponentsFunction{
 }
 ```
 
-* define function type, and set to your component. The component must response the JJCUKComponentDataSource protocol. I have set NSObject to response the JJCUKComponentDataSource protocol.
+* define function type, and set to your component. 
+
+	The component must response the JJCUKComponentDataSource protocol. I have set NSObject to response the JJCUKComponentDataSource protocol.
 
 ```
 let JJCUKFunctionTypeChangeLabelText = "ChangeLabelText"
