@@ -10,9 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var label1: UILabel!
+    @IBOutlet weak var label2: UILabel!
+    
+    @IBAction func change(sender: AnyObject)
+    {
+        let nc = NSNotificationCenter.defaultCenter()
+        nc.postNotificationName(ChangeLabelTextNotificationName, object: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        label1.jjCUKFunctionType = JJCUKFunctionTypeChangeLabelText
+        label2.jjCUKFunctionType = JJCUKFunctionTypeChangeLabelText
     }
 
     override func didReceiveMemoryWarning() {

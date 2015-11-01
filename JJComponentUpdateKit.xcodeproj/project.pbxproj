@@ -21,6 +21,9 @@
 		287F21521BE5C9A100D38FC0 /* JJCUKHashTableComponentsFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 287F21511BE5C9A100D38FC0 /* JJCUKHashTableComponentsFunction.m */; };
 		287F21581BE5DE2000D38FC0 /* NSObject+JJCUK.m in Sources */ = {isa = PBXBuildFile; fileRef = 287F21571BE5DE2000D38FC0 /* NSObject+JJCUK.m */; };
 		287F21631BE5EF9C00D38FC0 /* UIView+JJCUK.m in Sources */ = {isa = PBXBuildFile; fileRef = 287F21621BE5EF9C00D38FC0 /* UIView+JJCUK.m */; };
+		287F21721BE6031F00D38FC0 /* JJCUKFunctionTypeDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287F21711BE6031F00D38FC0 /* JJCUKFunctionTypeDefine.swift */; };
+		287F21791BE614A600D38FC0 /* JJCUKFunctionChangeLabelText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287F21781BE614A600D38FC0 /* JJCUKFunctionChangeLabelText.swift */; };
+		287F217B1BE6174400D38FC0 /* NSObject+JJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287F217A1BE6174400D38FC0 /* NSObject+JJ.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +74,10 @@
 		287F215D1BE5E0FF00D38FC0 /* JJCUKComponentDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJCUKComponentDataSource.h; sourceTree = "<group>"; };
 		287F21611BE5EF9C00D38FC0 /* UIView+JJCUK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JJCUK.h"; sourceTree = "<group>"; };
 		287F21621BE5EF9C00D38FC0 /* UIView+JJCUK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JJCUK.m"; sourceTree = "<group>"; };
+		287F216D1BE6025F00D38FC0 /* JJComponentUpdateKit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JJComponentUpdateKit-Bridging-Header.h"; sourceTree = "<group>"; };
+		287F21711BE6031F00D38FC0 /* JJCUKFunctionTypeDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJCUKFunctionTypeDefine.swift; sourceTree = "<group>"; };
+		287F21781BE614A600D38FC0 /* JJCUKFunctionChangeLabelText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJCUKFunctionChangeLabelText.swift; sourceTree = "<group>"; };
+		287F217A1BE6174400D38FC0 /* NSObject+JJ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+JJ.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,12 +129,13 @@
 		287F20FF1BE5BCBE00D38FC0 /* JJComponentUpdateKit */ = {
 			isa = PBXGroup;
 			children = (
-				287F21001BE5BCBE00D38FC0 /* AppDelegate.swift */,
-				287F21021BE5BCBE00D38FC0 /* ViewController.swift */,
+				287F216D1BE6025F00D38FC0 /* JJComponentUpdateKit-Bridging-Header.h */,
+				287F21781BE614A600D38FC0 /* JJCUKFunctionChangeLabelText.swift */,
+				287F21711BE6031F00D38FC0 /* JJCUKFunctionTypeDefine.swift */,
 				287F21041BE5BCBE00D38FC0 /* Main.storyboard */,
-				287F21071BE5BCBE00D38FC0 /* Assets.xcassets */,
-				287F21091BE5BCBE00D38FC0 /* LaunchScreen.storyboard */,
-				287F210C1BE5BCBE00D38FC0 /* Info.plist */,
+				287F216E1BE6029E00D38FC0 /* Support */,
+				287F21021BE5BCBE00D38FC0 /* ViewController.swift */,
+				287F217A1BE6174400D38FC0 /* NSObject+JJ.swift */,
 			);
 			path = JJComponentUpdateKit;
 			sourceTree = "<group>";
@@ -213,6 +221,17 @@
 				287F21571BE5DE2000D38FC0 /* NSObject+JJCUK.m */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		287F216E1BE6029E00D38FC0 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				287F21001BE5BCBE00D38FC0 /* AppDelegate.swift */,
+				287F21071BE5BCBE00D38FC0 /* Assets.xcassets */,
+				287F210C1BE5BCBE00D38FC0 /* Info.plist */,
+				287F21091BE5BCBE00D38FC0 /* LaunchScreen.storyboard */,
+			);
+			name = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,11 +372,14 @@
 				287F21031BE5BCBE00D38FC0 /* ViewController.swift in Sources */,
 				287F21521BE5C9A100D38FC0 /* JJCUKHashTableComponentsFunction.m in Sources */,
 				287F214F1BE5C97F00D38FC0 /* JJCUKMapTableComponentsFunction.m in Sources */,
+				287F21721BE6031F00D38FC0 /* JJCUKFunctionTypeDefine.swift in Sources */,
 				287F21631BE5EF9C00D38FC0 /* UIView+JJCUK.m in Sources */,
 				287F21581BE5DE2000D38FC0 /* NSObject+JJCUK.m in Sources */,
 				287F21011BE5BCBE00D38FC0 /* AppDelegate.swift in Sources */,
+				287F21791BE614A600D38FC0 /* JJCUKFunctionChangeLabelText.swift in Sources */,
 				287F21431BE5BEEB00D38FC0 /* JJCUKHashTableViewFunction.m in Sources */,
 				287F21441BE5BEEB00D38FC0 /* JJComponentUpdateKitManager.m in Sources */,
+				287F217B1BE6174400D38FC0 /* NSObject+JJ.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +525,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jianjing.JJComponentUpdateKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JJComponentUpdateKit/JJComponentUpdateKit-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -514,6 +537,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jianjing.JJComponentUpdateKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JJComponentUpdateKit/JJComponentUpdateKit-Bridging-Header.h";
 			};
 			name = Release;
 		};

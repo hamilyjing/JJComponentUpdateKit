@@ -63,6 +63,13 @@ static JJComponentUpdateKitManager *g_s_instance = nil;
     [baseFunction removeComponent:component_];
 }
 
++ (void)setFunctionTypeDictionary:(NSDictionary *)dic_
+{
+    NSParameterAssert(dic_);
+    
+    [JJComponentUpdateKitManager sharedInstance].functionTypeDic = [dic_ mutableCopy];
+}
+
 #pragma mark - private
 
 - (JJCUKBaseFunction *)getBaseFunction:(NSString *)functionType_
@@ -80,7 +87,13 @@ static JJComponentUpdateKitManager *g_s_instance = nil;
         Class functionClass = NSClassFromString(functionName);
         if (!functionClass)
         {
-            NSAssert(NO, @"Class is nil from class string: %@", functionName);
+            NSString *appName = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleName"];
+            NSString *swiftClassName = [NSString stringWithFormat:@"_TtC%ld%@%ld%@", (long)appName.length, appName, (long)functionName.length, functionName];
+            functionClass = NSClassFromString(swiftClassName);
+            if (!functionClass)
+            {
+                NSAssert(NO, @"Class is nil from class string: %@", functionName);
+            }
         }
         
         baseFunction = [[functionClass alloc] init];

@@ -17,4 +17,6 @@
 - (BOOL)addComponent:(id<JJCUKComponentDataSource>)component;
 - (void)removeComponent:(id<JJCUKComponentDataSource>)component;
 
++ (void)setFunctionTypeDictionary:(NSDictionary *)dic;
+
 @end
