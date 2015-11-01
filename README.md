@@ -8,7 +8,7 @@ For example, you should show the same name in different module, and you must wri
 
 * Move JJComponentUpdateKit/JJComponentUpdateKit directory to your project.
 
-* Create funcion class to process notification and update componet. 
+* Write funcion class to process notification and component updated. 
 	
 	The function class should begin with JJCUKFunction. JJComponentUpdateKit will create function class accroding to the class name rule: "JJCUKFunction" + "funciton type". [Fucntion type see below.]
 ```
@@ -46,7 +46,7 @@ class JJCUKFunctionChangeLabelText: JJCUKHashTableComponentsFunction{
 let JJCUKFunctionTypeChangeLabelText = "ChangeLabelText"
 
 label1.jjCUKFunctionType = JJCUKFunctionTypeChangeLabelText
-        label2.jjCUKFunctionType = JJCUKFunctionTypeChangeLabelText
+label2.jjCUKFunctionType = JJCUKFunctionTypeChangeLabelText
 ```
 JJComponentUpdateKit will set label1's text first when you set function type. And it will update label1's text if the label text changed. Label1 and lable2 have the same text and update together.
 
