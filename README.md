@@ -2,7 +2,7 @@
 
 JJComponentUpdateKit can update all relative components for the same thing changed. You do not wirte notification     process code for each module. JJComponentUpdateKit ensure all components to update the same status.
 
-For example, you should show the same name in different module, and you must write the name changed notification code in different module. It can cause code repetition and name is wrong in different module. JJComponentUpdateKit can resolve it and you do not need write any updated codes in different module.
+For example, you should show the same name in different module, and you must write the name updated code in different module. It can cause code repetition and name is wrong in different module. JJComponentUpdateKit can resolve it and you do not need write any updated codes in different module.
 
 # Usage
 
