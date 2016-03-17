@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		280ABE6F1C9A4D7800773A63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280ABE6E1C9A4D7800773A63 /* AppDelegate.swift */; };
+		280ABE711C9A4D7800773A63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280ABE701C9A4D7800773A63 /* ViewController.swift */; };
+		280ABE741C9A4D7800773A63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280ABE721C9A4D7800773A63 /* Main.storyboard */; };
+		280ABE761C9A4D7800773A63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280ABE751C9A4D7800773A63 /* Assets.xcassets */; };
+		280ABE791C9A4D7800773A63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280ABE771C9A4D7800773A63 /* LaunchScreen.storyboard */; };
+		280ABE841C9A4F9100773A63 /* JJCUKFunctionChangeLabelText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280ABE811C9A4F9100773A63 /* JJCUKFunctionChangeLabelText.swift */; };
+		280ABE851C9A4F9100773A63 /* JJCUKFunctionTypeDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280ABE821C9A4F9100773A63 /* JJCUKFunctionTypeDefine.swift */; };
+		280ABE861C9A4F9100773A63 /* NSObject+JJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280ABE831C9A4F9100773A63 /* NSObject+JJ.swift */; };
+		280ABE9D1C9A4FA200773A63 /* NSObject+JJCUK.m in Sources */ = {isa = PBXBuildFile; fileRef = 280ABE8C1C9A4FA200773A63 /* NSObject+JJCUK.m */; };
+		280ABE9E1C9A4FA200773A63 /* JJCUKBaseFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 280ABE8F1C9A4FA200773A63 /* JJCUKBaseFunction.m */; };
+		280ABE9F1C9A4FA200773A63 /* JJCUKHashTableComponentsFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 280ABE911C9A4FA200773A63 /* JJCUKHashTableComponentsFunction.m */; };
+		280ABEA01C9A4FA200773A63 /* JJCUKHashTableViewFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 280ABE931C9A4FA200773A63 /* JJCUKHashTableViewFunction.m */; };
+		280ABEA11C9A4FA200773A63 /* JJCUKMapTableComponentsFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 280ABE951C9A4FA200773A63 /* JJCUKMapTableComponentsFunction.m */; };
+		280ABEA21C9A4FA200773A63 /* JJComponentUpdateKitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 280ABE991C9A4FA200773A63 /* JJComponentUpdateKitManager.m */; };
+		280ABEA31C9A4FA200773A63 /* UIView+JJCUK.m in Sources */ = {isa = PBXBuildFile; fileRef = 280ABE9C1C9A4FA200773A63 /* UIView+JJCUK.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		280ABE6B1C9A4D7800773A63 /* JJComponentUpdateKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJComponentUpdateKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		280ABE6E1C9A4D7800773A63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		280ABE701C9A4D7800773A63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		280ABE731C9A4D7800773A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		280ABE751C9A4D7800773A63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		280ABE781C9A4D7800773A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		280ABE7A1C9A4D7800773A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		280ABE801C9A4F9100773A63 /* JJComponentUpdateKitDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JJComponentUpdateKitDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		280ABE811C9A4F9100773A63 /* JJCUKFunctionChangeLabelText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJCUKFunctionChangeLabelText.swift; sourceTree = "<group>"; };
+		280ABE821C9A4F9100773A63 /* JJCUKFunctionTypeDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJCUKFunctionTypeDefine.swift; sourceTree = "<group>"; };
+		280ABE831C9A4F9100773A63 /* NSObject+JJ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+JJ.swift"; sourceTree = "<group>"; };
+		280ABE891C9A4FA200773A63 /* JJCUKComponentDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJCUKComponentDataSource.h; sourceTree = "<group>"; };
+		280ABE8A1C9A4FA200773A63 /* JJCUKComponentDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJCUKComponentDelegate.h; sourceTree = "<group>"; };
+		280ABE8B1C9A4FA200773A63 /* NSObject+JJCUK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JJCUK.h"; sourceTree = "<group>"; };
+		280ABE8C1C9A4FA200773A63 /* NSObject+JJCUK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JJCUK.m"; sourceTree = "<group>"; };
+		280ABE8E1C9A4FA200773A63 /* JJCUKBaseFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJCUKBaseFunction.h; sourceTree = "<group>"; };
+		280ABE8F1C9A4FA200773A63 /* JJCUKBaseFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJCUKBaseFunction.m; sourceTree = "<group>"; };
+		280ABE901C9A4FA200773A63 /* JJCUKHashTableComponentsFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJCUKHashTableComponentsFunction.h; sourceTree = "<group>"; };
+		280ABE911C9A4FA200773A63 /* JJCUKHashTableComponentsFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJCUKHashTableComponentsFunction.m; sourceTree = "<group>"; };
+		280ABE921C9A4FA200773A63 /* JJCUKHashTableViewFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJCUKHashTableViewFunction.h; sourceTree = "<group>"; };
+		280ABE931C9A4FA200773A63 /* JJCUKHashTableViewFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJCUKHashTableViewFunction.m; sourceTree = "<group>"; };
+		280ABE941C9A4FA200773A63 /* JJCUKMapTableComponentsFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJCUKMapTableComponentsFunction.h; sourceTree = "<group>"; };
+		280ABE951C9A4FA200773A63 /* JJCUKMapTableComponentsFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJCUKMapTableComponentsFunction.m; sourceTree = "<group>"; };
+		280ABE961C9A4FA200773A63 /* JJComponentUpdateKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJComponentUpdateKit.h; sourceTree = "<group>"; };
+		280ABE981C9A4FA200773A63 /* JJComponentUpdateKitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJComponentUpdateKitManager.h; sourceTree = "<group>"; };
+		280ABE991C9A4FA200773A63 /* JJComponentUpdateKitManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJComponentUpdateKitManager.m; sourceTree = "<group>"; };
+		280ABE9B1C9A4FA200773A63 /* UIView+JJCUK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JJCUK.h"; sourceTree = "<group>"; };
+		280ABE9C1C9A4FA200773A63 /* UIView+JJCUK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JJCUK.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		280ABE681C9A4D7800773A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		280ABE621C9A4D7800773A63 = {
+			isa = PBXGroup;
+			children = (
+				280ABE871C9A4FA200773A63 /* JJComponentUpdateKit */,
+				280ABE6D1C9A4D7800773A63 /* JJComponentUpdateKitDemo */,
+				280ABE6C1C9A4D7800773A63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		280ABE6C1C9A4D7800773A63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				280ABE6B1C9A4D7800773A63 /* JJComponentUpdateKitDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		280ABE6D1C9A4D7800773A63 /* JJComponentUpdateKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				280ABE801C9A4F9100773A63 /* JJComponentUpdateKitDemo-Bridging-Header.h */,
+				280ABE811C9A4F9100773A63 /* JJCUKFunctionChangeLabelText.swift */,
+				280ABE821C9A4F9100773A63 /* JJCUKFunctionTypeDefine.swift */,
+				280ABE831C9A4F9100773A63 /* NSObject+JJ.swift */,
+				280ABE6E1C9A4D7800773A63 /* AppDelegate.swift */,
+				280ABE701C9A4D7800773A63 /* ViewController.swift */,
+				280ABE721C9A4D7800773A63 /* Main.storyboard */,
+				280ABE751C9A4D7800773A63 /* Assets.xcassets */,
+				280ABE771C9A4D7800773A63 /* LaunchScreen.storyboard */,
+				280ABE7A1C9A4D7800773A63 /* Info.plist */,
+			);
+			path = JJComponentUpdateKitDemo;
+			sourceTree = "<group>";
+		};
+		280ABE871C9A4FA200773A63 /* JJComponentUpdateKit */ = {
+			isa = PBXGroup;
+			children = (
+				280ABE881C9A4FA200773A63 /* Component */,
+				280ABE8D1C9A4FA200773A63 /* Function */,
+				280ABE961C9A4FA200773A63 /* JJComponentUpdateKit.h */,
+				280ABE971C9A4FA200773A63 /* Manager */,
+				280ABE9A1C9A4FA200773A63 /* SystemCategory */,
+			);
+			name = JJComponentUpdateKit;
+			path = ../../JJComponentUpdateKit;
+			sourceTree = "<group>";
+		};
+		280ABE881C9A4FA200773A63 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				280ABE891C9A4FA200773A63 /* JJCUKComponentDataSource.h */,
+				280ABE8A1C9A4FA200773A63 /* JJCUKComponentDelegate.h */,
+				280ABE8B1C9A4FA200773A63 /* NSObject+JJCUK.h */,
+				280ABE8C1C9A4FA200773A63 /* NSObject+JJCUK.m */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		280ABE8D1C9A4FA200773A63 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				280ABE8E1C9A4FA200773A63 /* JJCUKBaseFunction.h */,
+				280ABE8F1C9A4FA200773A63 /* JJCUKBaseFunction.m */,
+				280ABE901C9A4FA200773A63 /* JJCUKHashTableComponentsFunction.h */,
+				280ABE911C9A4FA200773A63 /* JJCUKHashTableComponentsFunction.m */,
+				280ABE921C9A4FA200773A63 /* JJCUKHashTableViewFunction.h */,
+				280ABE931C9A4FA200773A63 /* JJCUKHashTableViewFunction.m */,
+				280ABE941C9A4FA200773A63 /* JJCUKMapTableComponentsFunction.h */,
+				280ABE951C9A4FA200773A63 /* JJCUKMapTableComponentsFunction.m */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		280ABE971C9A4FA200773A63 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				280ABE981C9A4FA200773A63 /* JJComponentUpdateKitManager.h */,
+				280ABE991C9A4FA200773A63 /* JJComponentUpdateKitManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		280ABE9A1C9A4FA200773A63 /* SystemCategory */ = {
+			isa = PBXGroup;
+			children = (
+				280ABE9B1C9A4FA200773A63 /* UIView+JJCUK.h */,
+				280ABE9C1C9A4FA200773A63 /* UIView+JJCUK.m */,
+			);
+			path = SystemCategory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		280ABE6A1C9A4D7800773A63 /* JJComponentUpdateKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280ABE7D1C9A4D7800773A63 /* Build configuration list for PBXNativeTarget "JJComponentUpdateKitDemo" */;
+			buildPhases = (
+				280ABE671C9A4D7800773A63 /* Sources */,
+				280ABE681C9A4D7800773A63 /* Frameworks */,
+				280ABE691C9A4D7800773A63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJComponentUpdateKitDemo;
+			productName = JJComponentUpdateKitDemo;
+			productReference = 280ABE6B1C9A4D7800773A63 /* JJComponentUpdateKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		280ABE631C9A4D7800773A63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = JJ;
+				TargetAttributes = {
+					280ABE6A1C9A4D7800773A63 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 280ABE661C9A4D7800773A63 /* Build configuration list for PBXProject "JJComponentUpdateKitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 280ABE621C9A4D7800773A63;
+			productRefGroup = 280ABE6C1C9A4D7800773A63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				280ABE6A1C9A4D7800773A63 /* JJComponentUpdateKitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		280ABE691C9A4D7800773A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280ABE791C9A4D7800773A63 /* LaunchScreen.storyboard in Resources */,
+				280ABE761C9A4D7800773A63 /* Assets.xcassets in Resources */,
+				280ABE741C9A4D7800773A63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		280ABE671C9A4D7800773A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280ABE861C9A4F9100773A63 /* NSObject+JJ.swift in Sources */,
+				280ABEA01C9A4FA200773A63 /* JJCUKHashTableViewFunction.m in Sources */,
+				280ABE711C9A4D7800773A63 /* ViewController.swift in Sources */,
+				280ABEA11C9A4FA200773A63 /* JJCUKMapTableComponentsFunction.m in Sources */,
+				280ABEA31C9A4FA200773A63 /* UIView+JJCUK.m in Sources */,
+				280ABE6F1C9A4D7800773A63 /* AppDelegate.swift in Sources */,
+				280ABE851C9A4F9100773A63 /* JJCUKFunctionTypeDefine.swift in Sources */,
+				280ABE9F1C9A4FA200773A63 /* JJCUKHashTableComponentsFunction.m in Sources */,
+				280ABE841C9A4F9100773A63 /* JJCUKFunctionChangeLabelText.swift in Sources */,
+				280ABE9E1C9A4FA200773A63 /* JJCUKBaseFunction.m in Sources */,
+				280ABE9D1C9A4FA200773A63 /* NSObject+JJCUK.m in Sources */,
+				280ABEA21C9A4FA200773A63 /* JJComponentUpdateKitManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		280ABE721C9A4D7800773A63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280ABE731C9A4D7800773A63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		280ABE771C9A4D7800773A63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280ABE781C9A4D7800773A63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		280ABE7B1C9A4D7800773A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		280ABE7C1C9A4D7800773A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		280ABE7E1C9A4D7800773A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JJComponentUpdateKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JJ.JJComponentUpdateKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JJComponentUpdateKitDemo/JJComponentUpdateKitDemo-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		280ABE7F1C9A4D7800773A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JJComponentUpdateKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JJ.JJComponentUpdateKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JJComponentUpdateKitDemo/JJComponentUpdateKitDemo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		280ABE661C9A4D7800773A63 /* Build configuration list for PBXProject "JJComponentUpdateKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280ABE7B1C9A4D7800773A63 /* Debug */,
+				280ABE7C1C9A4D7800773A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		280ABE7D1C9A4D7800773A63 /* Build configuration list for PBXNativeTarget "JJComponentUpdateKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280ABE7E1C9A4D7800773A63 /* Debug */,
+				280ABE7F1C9A4D7800773A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 280ABE631C9A4D7800773A63 /* Project object */;
+}

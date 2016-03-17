@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  JJComponentUpdateKit
+//  JJComponentUpdateKitDemo
 //
-//  Created by JJ on 11/1/15.
-//  Copyright © 2015 JJ. All rights reserved.
+//  Created by JJ on 3/17/16.
+//  Copyright © 2016 JJ. All rights reserved.
 //
 
 import UIKit
