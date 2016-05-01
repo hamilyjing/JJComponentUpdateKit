@@ -22,6 +22,11 @@ NSString *JJCUKMapTableComponentsIdentityKey = @"JJCUKMapTableComponentsIdentity
 {
     NSParameterAssert(object_ && key_);
     
+    if (!object_ || !key_)
+    {
+        return;
+    }
+    
     self.jjCUKUserInfo[key_] = object_;
 }
 

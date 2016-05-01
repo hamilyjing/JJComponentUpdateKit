@@ -54,7 +54,7 @@
     
     [self updateComponent:component_ withObject:nil];
     
-    return NO;
+    return YES;
 }
 
 - (void)removeComponent:(NSObject<JJCUKComponentDataSource> *)component_
