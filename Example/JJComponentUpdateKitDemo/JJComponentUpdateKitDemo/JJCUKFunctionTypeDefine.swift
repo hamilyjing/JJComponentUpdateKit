@@ -8,4 +8,4 @@
 
 import Foundation
 
-let JJCUKFunctionTypeChangeLabelText = "ChangeLabelText"
+let JJCUKFunctionTypeChangeLabelText = "JJCUKFunctionChangeLabelText"

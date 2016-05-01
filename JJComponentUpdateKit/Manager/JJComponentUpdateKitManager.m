@@ -83,7 +83,7 @@ static JJComponentUpdateKitManager *g_s_instance = nil;
     
     if (!baseFunction)
     {
-        NSString *functionName = [NSString stringWithFormat:@"JJCUKFunction%@", functionType_];
+        NSString *functionName = functionType_;
         Class functionClass = NSClassFromString(functionName);
         if (!functionClass)
         {

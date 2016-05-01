@@ -15,11 +15,12 @@ class JJCUKFunctionChangeLabelText: JJCUKHashTableComponentsFunction
 {
     var pos = 1
     
-    override init() {
+    override init()
+    {
         super.init()
         
         let nc = NSNotificationCenter.defaultCenter()
-        nc.addObserver(self, selector: "changeLabelTextNotification", name: ChangeLabelTextNotificationName, object: nil)
+        nc.addObserver(self, selector: #selector(JJCUKFunctionChangeLabelText.changeLabelTextNotification), name: ChangeLabelTextNotificationName, object: nil)
     }
     
     override func updateComponent(component: JJCUKComponentDataSource!, withObject object: AnyObject!)
@@ -30,7 +31,7 @@ class JJCUKFunctionChangeLabelText: JJCUKHashTableComponentsFunction
     
     func changeLabelTextNotification()
     {
-        ++pos
+        pos += 1
         updateAllComponentWithObject(nil)
     }
 }
